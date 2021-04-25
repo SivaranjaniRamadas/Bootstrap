@@ -1,0 +1,153 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-icons.md-18 {
+            font-size: 18px;
+            vertical-align: middle;
+        }
+
+        .material-icons {
+            vertical-align: middle;
+        }
+
+        #hover {
+            cursor: pointer;
+        }
+
+        i:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">hTrack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Goals</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h2>Products</h2>
+
+    <div class="card-deck">
+
+        <div class="card text-left" style="width:18rem">
+            <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" class="card-img-top" alt="Coco oil">
+            <div class="card-body">
+                <h5 class="card-title">Coco Oil (200g)<span class="badge badge-success">4.4<i class="material-icons md-18">grade</i></span></h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                     Rs. 200.00 <small><strike>Rs. 250.00</strike></small> 20% <i class="material-icons md-18">new_releases</i>
+                </h6>
+                <p class="card-text">
+                    Coco Soul Cold Pressed Virgin Coconut Oil (VCNO) Comes from the house of Marico, the makers of leading brands Saffola and Parachute
+                    Cold pressing technology helps preserve the vital nutrients, rich aroma and flavour of real coconuts, making it fit for raw consumption
+                </p>
+            </div>
+            <div class="card-body">
+                <a href=# class="btn btn-primary"><i class="material-icons">add_shopping_cart</i>Add to Cart</a>
+                <i class="material-icons" id="hover">favorite_border</i>
+            </div>
+        </div>
+
+        <div class="card text-left" style="width:18rem">
+            <img src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80" class="card-img-top" alt="Coco oil">
+            <div class="card-body">
+                <h5 class="card-title">Mad About Waves (300ml)<span class="badge badge-warning">3.5<i class="material-icons md-18">grade</i></span></h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                     Rs. 150.00 <small><strike>Rs. 200.00</strike></small> 25% <i class="material-icons md-18">new_releases</i>
+              </h6>
+                <p class="card-text">
+                    The hair is protected against breakage and against heat up to 80 ° C. 
+                    The special Aquarine Complex prevents hair breakage (96% better results) and 
+                    gives much less split ends (94% improvement).
+                </p>
+            </div>
+            <div class="card-body">
+                <a href=# class="btn btn-primary"><i class="material-icons">add_shopping_cart</i>Add to Cart</a>
+                <i class="material-icons" id="hover">favorite_border</i>
+            </div>
+        </div>
+        <div class="card text-left" style="width:18rem">
+            <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="Coco oil">
+            <div class="card-body">
+                <h5 class="card-title">Moui Moisture(Bamboo Fibers Shampoo 305ml)<span class="badge badge-warning">3.1<i class="material-icons md-18">grade</i></span></h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                     Rs. 455.00 
+                </h6>
+                <p class="card-text">
+                    Softening & thickening bamboo fibers shampoo
+                    THICKEN and STRENGTHEN STRANDS: 
+                    This 13-fluid ounce bottle of Maui Moisture Thicken and Restore + Bamboo Fibers Shampoo contains a strengthening formula
+                </p>
+            </div>
+            <div class="card-body">
+                <a href=# class="btn btn-primary"><i class="material-icons">add_shopping_cart</i>Add to Cart</a>
+                <i class="material-icons" id="hover">favorite_border</i>
+            </div>
+        </div>
+
+        <div class="card text-left" style="width:18rem">
+            <img src="https://images.unsplash.com/photo-1559056199-5a47f60c5053?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="Coco oil">
+            <div class="card-body">
+                <h5 class="card-title">Battlecreek coffee(200g)	<span class="badge badge-danger">2.5<i class="material-icons md-18">grade</i></span></h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                     Rs. 150.00 <small><strike>Rs. 200.00</strike></small> 20% <i class="material-icons md-18">new_releases</i>
+                </h6>
+                <p class="card-text">
+                    Whether you are having your first morning cup to set the tone of the day or needing to regroup and push through the afternoon, we want you to experience a coffee that extracts the premium tones of the coffee bean. We use coffee beans that are ethically sourced with a rating of 85+. Combined with precise roasting measures, we are committed to the best flavor profile with every roast.
+                </p>
+            </div>
+            <div class="card-body">
+                <a href=# class="btn btn-primary"><i class="material-icons">add_shopping_cart</i>Add to Cart</a>
+                <i class="material-icons" id="hover">favorite_border</i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card text-left" style="width:20rem">
+        <img src="https://im.idiva.com/content/2020/Mar/Face-oil-iDiva-1_5e7c45807e371.jpg" class="card-img-top" alt="Coco oil">
+        <div class="card-body">
+            <h5 class="card-title">Lapis Facial Oil(100ml)	<span class="badge badge-success">4.8<i class="material-icons md-18">grade</i></span></h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+                 Rs. 750.00 <small><strike>Rs. 1000.00</strike></small> 25% <i class="material-icons md-18">new_releases</i>
+            </h6>
+            <p class="card-text">
+                Formulated For Combination, Oily & Blemish Prone Skin Types Or Any Skin Type In Need Of Relief From Inflammation
+                All Of The Oils Are Cold Pressed Or Steam Distilled. 
+                These Are The Finest Extraction Methods Available And Lead To A Premium Quality Oil
+                100% Natural & Effective - 100% Vegan
+            </p>
+        </div>
+        <div class="card-body">
+            <a href=# class="btn btn-primary"><i class="material-icons">add_shopping_cart</i>Add to Cart</a>
+            <i class="material-icons" id="hover">favorite_border</i>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
